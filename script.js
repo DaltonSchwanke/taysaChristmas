@@ -3,6 +3,28 @@ const emptyState = document.querySelector("#empty-state");
 const itemCount = document.querySelector("#item-count");
 const priceSort = document.querySelector("#price-sort");
 const year = document.querySelector("#year");
+const snowfall = document.querySelector(".snowfall");
+
+function createSnowfall() {
+  if (!snowfall || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    return;
+  }
+
+  const flakes = document.createDocumentFragment();
+
+  for (let index = 0; index < 42; index += 1) {
+    const flake = document.createElement("i");
+    flake.style.setProperty("--x", `${Math.random() * 100}vw`);
+    flake.style.setProperty("--drift", `${Math.random() * 120 - 60}px`);
+    flake.style.setProperty("--size", `${Math.random() * 5 + 3}px`);
+    flake.style.setProperty("--duration", `${Math.random() * 8 + 9}s`);
+    flake.style.setProperty("--delay", `${Math.random() * -17}s`);
+    flake.style.setProperty("--opacity", `${Math.random() * 0.45 + 0.35}`);
+    flakes.append(flake);
+  }
+
+  snowfall.append(flakes);
+}
 
 const currencyFormatter = new Intl.NumberFormat("en-US", {
   style: "currency",
@@ -132,6 +154,7 @@ function renderWishlist(sortOrder = "default") {
 }
 
 year.textContent = new Date().getFullYear();
+createSnowfall();
 renderWishlist();
 
 priceSort.addEventListener("change", (event) => {
