@@ -42,12 +42,12 @@ const wishlistItems = [
     note: "To keep my clothes from falling in cat litter!!!",
   },
   {
-    title: "Surprise Me!",
-    image: "images/mystery.png",
-    link: "",
-    price: 0.00,
+    title: "Kitchen Aid Stand Mixer",
+    image: "images/mixer.webp",
+    link: "https://www.kitchenaid.com/countertop-appliances/stand-mixers/tilt-head-stand-mixers/p.artisan-series-5-quart-tilt-head-stand-mixer.KSM150PSFT.html?_gl=1*1653u73*_up*MQ..*_gs*MQ..&gclid=CjwKCAjw0fbWBhBkEiwAwJuQ8XV4bCIaql1vhg2mxJ1N_1l_DimjBxrViKacGVPL8yd__f2G32WMGhoCzJoQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAAC5rhmKzH1WrRFuKcdNjtIc-5aWif",
+    price: 499.99,
     rating: 5,
-    note: "In case nothing else here works, I will be happy with a surprise gift!",
+    note: "Feather Pink stand mixer. Engrave with a special message if you'd like.",
   },
   {
     title: "Surprise Me!",
