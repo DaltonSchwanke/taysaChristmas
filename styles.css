@@ -16,6 +16,7 @@ a { color:inherit; }
 .brand,.header-link,footer a { text-decoration:none; font-weight:700; }
 .brand { display:inline-flex; align-items:center; gap:11px; letter-spacing:-.02em; }
 .brand-mark { display:grid; place-items:center; width:36px; height:36px; color:white; background:var(--rose); border-radius:50% 48% 52% 46%; transform:rotate(-6deg); box-shadow:3px 3px 0 rgba(148,52,79,.18); }
+.css-heart { display:block; width:16px; height:15px; background:currentColor; clip-path:polygon(50% 96%,43% 88%,12% 59%,5% 48%,2% 36%,3% 24%,8% 13%,17% 6%,28% 3%,39% 6%,50% 17%,61% 6%,72% 3%,83% 6%,92% 13%,97% 24%,98% 36%,95% 48%,88% 59%,57% 88%); }
 .header-link,footer a { font-size:.9rem; }
 .header-link,.back-to-top { display:inline-flex; align-items:center; gap:7px; }
 .inline-icon { width:17px; height:17px; }
@@ -68,7 +69,9 @@ h1 em { display:block; color:var(--rose); font-family:"Sacramento",cursive; font
 .gift-two { right:38px; width:68px; height:78px; background:#a9c3a0; transform:rotate(7deg); }
 .art-caption { position:absolute; z-index:7; right:24px; bottom:16px; color:var(--wine); font-family:"Sacramento",cursive; font-size:1.55rem; transform:rotate(-4deg); }
 .wishlist-section { position:relative; padding:108px 0 120px; border-top:1px dashed var(--line); }
-.wishlist-section::before { content:"♥  ✦  ♥"; position:absolute; top:-15px; left:50%; padding:0 15px; color:var(--rose); background:var(--blush); letter-spacing:8px; transform:translateX(-50%); }
+.section-flourish { position:absolute; top:-12px; left:50%; display:flex; align-items:center; gap:12px; padding:3px 15px; color:var(--rose); background:var(--blush); transform:translateX(-50%); }
+.section-flourish .css-heart { width:12px; height:11px; }
+.section-flourish span { font-size:14px; line-height:1; }
 .section-heading { display:flex; align-items:end; justify-content:space-between; gap:30px; margin-bottom:46px; }
 h2 { margin-bottom:0; font-size:clamp(2.8rem,6vw,5.2rem); }
 .item-count { margin:0; color:var(--muted); font-size:.9rem; font-weight:700; }
