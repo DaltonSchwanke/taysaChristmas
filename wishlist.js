@@ -26,11 +26,19 @@ const wishlistItems = [
     note: "In case nothing else here works, I will be happy with a surprise gift!",
   },
   {
+    title: "Calico Critters",
+    image: "images/ccbiscuitbears.webp",
+    link: "https://store.calicocritters.com/families/",
+    price: 0.00,
+    rating: 2,
+    note: "Any Calico Critter family set or babies",
+  },
+  {
     title: "Surprise Me!",
     image: "images/mystery.png",
     link: "",
     price: 0.00,
-    rating: 2,
+    rating: 5,
     note: "In case nothing else here works, I will be happy with a surprise gift!",
   },
   {
@@ -41,4 +49,12 @@ const wishlistItems = [
     rating: 5,
     note: "In case nothing else here works, I will be happy with a surprise gift!",
   },
+  {
+    title: "Surprise Me!",
+    image: "images/mystery.png",
+    link: "",
+    price: 0.00,
+    rating: 5,
+    note: "In case nothing else here works, I will be happy with a surprise gift!",
+  }
 ];
