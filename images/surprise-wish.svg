@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Green and gold gift illustration</title>
+  <rect width="800" height="600" fill="#dce5df"/>
+  <circle cx="400" cy="300" r="235" fill="#214e40"/>
+  <rect x="245" y="260" width="310" height="235" rx="8" fill="#c8433c"/>
+  <rect x="221" y="228" width="358" height="76" rx="8" fill="#df574e"/>
+  <path d="M374 228h54v267h-54z" fill="#e7b958"/>
+  <path d="M221 327h358v52H221z" fill="#e7b958"/>
+  <path d="M400 229c-44-98-151-97-131-22 13 50 131 22 131 22ZM400 229c44-98 151-97 131-22-13 50-131 22-131 22Z" fill="none" stroke="#e7b958" stroke-width="25" stroke-linejoin="round"/>
+  <g fill="#fffdf7">
+    <path d="m130 196 9 23 24 9-24 9-9 24-9-24-23-9 23-9Z"/>
+    <path d="m670 390 9 23 24 9-24 9-9 24-9-24-23-9 23-9Z"/>
+  </g>
+</svg>

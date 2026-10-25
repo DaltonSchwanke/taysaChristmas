@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A festive, easy-to-browse Christmas wishlist."
+    />
+    <meta name="theme-color" content="#f7f2e8" />
+    <title>My Christmas Wishlist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Back to the top">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span>Christmas wishes</span>
+      </a>
+      <a class="header-link" href="#wishlist">
+        View the list
+        <svg class="inline-icon" aria-hidden="true" viewBox="0 0 20 20" fill="none">
+          <path d="M10 3v13m0 0 5-5m-5 5-5-5" />
+        </svg>
+      </a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A little list of things I’d love</p>
+          <h1 id="page-title">All I want for Christmas…</h1>
+          <p class="intro">
+            No need to fear I do not collect data or track analytics. I will have no idea what you buy or click on in this site. 
+          </p>
+          <a class="primary-button" href="#wishlist">
+            Browse my wishes
+            <span aria-hidden="true"><i class="css-arrow"></i></span>
+          </a>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="star star-one">✦</div>
+          <div class="star star-two">✦</div>
+          <div class="ornament ornament-red"><span></span></div>
+          <div class="ornament ornament-green"><span></span></div>
+          <div class="gift-box">
+            <div class="gift-lid"></div>
+            <div class="gift-ribbon-v"></div>
+            <div class="gift-ribbon-h"></div>
+            <div class="gift-bow bow-left"></div>
+            <div class="gift-bow bow-right"></div>
+          </div>
+          <div class="ground-shadow"></div>
+        </div>
+      </section>
+
+      <section class="wishlist-section" id="wishlist" aria-labelledby="wishlist-heading">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">The wishlist</p>
+            <h2 id="wishlist-heading">A few favorite things</h2>
+          </div>
+          <div class="wishlist-tools">
+            <p id="item-count" class="item-count" aria-live="polite"></p>
+            <label class="sort-control" for="price-sort">
+              <span>Sort by</span>
+              <select id="price-sort">
+                <option value="default">Featured</option>
+                <option value="low-high">Price: low to high</option>
+                <option value="high-low">Price: high to low</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <div id="wishlist-grid" class="wishlist-grid"></div>
+
+        <div id="empty-state" class="empty-state" hidden>
+          <span aria-hidden="true">🎁</span>
+          <h3>The list is waiting for a little Christmas magic.</h3>
+          <p>Add your first item in <code>wishlist.js</code>.</p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Made with Christmas cheer <span aria-hidden="true">✦</span> <span id="year"></span></p>
+      <a class="back-to-top" href="#top">
+        Back to top
+        <svg class="inline-icon" aria-hidden="true" viewBox="0 0 20 20" fill="none">
+          <path d="M10 17V4m0 0-5 5m5-5 5 5" />
+        </svg>
+      </a>
+    </footer>
+
+    <script src="wishlist.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

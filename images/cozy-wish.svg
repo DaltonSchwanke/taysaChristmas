@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title">
+  <title id="title">Cozy red winter mug illustration</title>
+  <rect width="800" height="600" fill="#d8e0d4"/>
+  <circle cx="650" cy="105" r="170" fill="#e7b958" opacity=".3"/>
+  <path d="M0 470c156-60 315-42 428 10 120 55 229 48 372-18v138H0Z" fill="#214e40" opacity=".12"/>
+  <path d="M272 195h250v236a74 74 0 0 1-74 74H346a74 74 0 0 1-74-74Z" fill="#c8433c"/>
+  <path d="M518 245h54c73 0 73 132 0 132h-54" fill="none" stroke="#c8433c" stroke-width="34"/>
+  <ellipse cx="397" cy="198" rx="125" ry="35" fill="#fffdf7"/>
+  <ellipse cx="397" cy="202" rx="97" ry="20" fill="#7b4b37"/>
+  <path d="M348 157c-28-54 33-66 4-119M426 157c-28-54 33-66 4-119" fill="none" stroke="#fffdf7" stroke-width="13" stroke-linecap="round" opacity=".8"/>
+  <path d="m374 322 23 22 45-55" fill="none" stroke="#fffdf7" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
