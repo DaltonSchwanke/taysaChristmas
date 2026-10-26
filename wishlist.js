@@ -82,22 +82,6 @@ const wishlistItems = [
     note: "I don't have any real winter boots that can compete with MN weather. I'm a size 9",
   },
   {
-    title: "Roomba",
-    image: "images/roomba.webp",
-    link: "https://www.irobot.com/en_US/roomba-plus-678-combo-robot-plus-autowash-dock/V185020.html",
-    price: 899.99,
-    rating: 4,
-    note: "In case your feeling very generous",
-  },
-  {
-    title: "Coach Brooklyn Bag",
-    image: "images/bag.webp",
-    link: "https://www.coach.com/products/brooklyn-shoulder-bag-28/CU068-B4%2FBK.html?COHNA=true&ogmap=PLA|RTN|GOOG|STND|c|SITEWIDE|Retail|Coach_RTL_Google_PLA_Signal_NA_Unified_National_Pmax_NA_BAU|Shopping_Smart_Unified||22170925638||US&utm_source=google&utm_medium=cpc&utm_campaign=Coach_RTL_Google_PLA_Signal_NA_Unified_National_Pmax_NA_BAU_Bags&utm_id=go_cmp-22170925638_adg-_ad-__dev-c_ext-_prd-CU068%20B4%2FBK_sig-CjwKCAjw0fbWBhBkEiwAwJuQ8SdPohjwAaLZpt_8cuuTKce0XXLJkUhxdiQQ97ize5u86gLE2uR2pxoCm6sQAvD_BwE&gclsrc=aw.ds&gad_source=1&gad_campaignid=22181132353&gbraid=0AAAAAD_i1XQtQUjeawwzvAke004q91JyO&gclid=CjwKCAjw0fbWBhBkEiwAwJuQ8SdPohjwAaLZpt_8cuuTKce0XXLJkUhxdiQQ97ize5u86gLE2uR2pxoCm6sQAvD_BwE",
-    price: 295.00,
-    rating: 3,
-    note: "Cute bag",
-  },
-  {
     title: "T-shirt",
     image: "images/shirt1.jpg",
     link: "https://www.amazon.com/Vintage-Oversized-Streetwear-Boyfriend-W-BKAGBG/dp/B0DF2WP8FD/ref=sxin_12_pa_sp_search_thematic_sspa?content-id=amzn1.sym.4c1fec13-dc0d-410e-8849-50e4ac9139df%3Aamzn1.sym.4c1fec13-dc0d-410e-8849-50e4ac9139df&crid=NT79PS52YSBX&cv_ct_cx=womens%2Bgraphic%2Bt%2Bshirts&keywords=womens%2Bgraphic%2Bt%2Bshirts&pd_rd_i=B0DF2VDQPR&pd_rd_r=536749a7-1d90-47c3-b998-7b0f9ae2c889&pd_rd_w=gl4af&pd_rd_wg=gerXc&pf_rd_p=4c1fec13-dc0d-410e-8849-50e4ac9139df&pf_rd_r=50SHETM2KH6V133KK9SV&qid=1792967937&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sprefix=womens%2Bgraphic%2B%2Caps%2C250&sr=1-1-73628ac3-efbc-4ed0-91a3-3f4336118b5f-spons&aref=3vctGWQuqU&sp_csd=d2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM&th=1&psc=1",
