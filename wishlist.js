@@ -142,8 +142,16 @@ const wishlistItems = [
     image: "images/oxbow.svg",
     link: "https://oxbowanimalhealth.com/our-products/enrichment/?_species=guinea-pigs",
     price: 10.00,
-    rating: 4,
+    rating: 3,
     note: "The guinea pigs also need toys",
-  }
+  },
+  {
+    title: "Shark flexstyle",
+    image: "sharkhair.avif",
+    link: "https://www.sharkninja.com/cart"
+    price: 199.00,
+    rating: 3,
+    note: "",
+  },
 
 ];

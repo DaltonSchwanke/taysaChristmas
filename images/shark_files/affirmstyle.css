@@ -1,0 +1,42 @@
+.affirm-payment-method.form-row {
+	width: 90%;
+}
+
+.affirm-payment-method.form-row .field-wrapper{
+	width: 100%;
+}
+
+.affirm-payment-method.form-row .field-wrapper .field-label{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.payment-description-logo-affirm{
+	width: 4.5rem;
+}
+
+.affirm-as-low-as {
+	padding-bottom: 0;
+}
+
+.affirm-promo-empty {
+	padding-bottom: 3rem;
+}
+
+.affirm-payment-method.form-row .field-wrapper .field-label span{
+	vertical-align: 70%;
+}
+
+.affirm-payment-method.form-row .field-wrapper .field-label a{
+	display: inline-block;
+	vertical-align: 67%;
+}
+
+.affirm-modal-trigger{
+	font-family: 'DM Sans';
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #6d6d6d !important;
+    text-decoration: underline;
+    line-height: 1.25rem;
+}

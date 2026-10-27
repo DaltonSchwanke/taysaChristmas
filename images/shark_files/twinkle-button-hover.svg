@@ -1,0 +1,81 @@
+<svg
+  width="51"
+  height="51"
+  viewBox="0 0 51 51"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  preserveAspectRatio="xMidYMid meet"
+  role="img"
+  aria-label="Sparkle button"
+>
+
+  <defs>
+    <style>
+      .star-md {
+        transform-origin: 31px 19.5px;
+        animation: twinkle 2.4s ease-in-out infinite 0.8s;
+      }
+
+      .star-sm {
+        transform-origin: 20px 21px;
+        animation: twinkle 2.4s ease-in-out infinite 1.6s;
+      }
+
+      @keyframes twinkle {
+        0%, 100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        40% {
+          opacity: 0.3;
+          transform: scale(0.7);
+        }
+        60% {
+          opacity: 1;
+          transform: scale(1.15);
+        }
+        80% {
+          opacity: 0.8;
+          transform: scale(0.95);
+        }
+      }
+    </style>
+
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#000000" flood-opacity="0.45"/>
+    </filter>
+
+    <filter id="hoverShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <circle cx="25.5" cy="25.5" r="24" fill="#050505" stroke="#D9D9D9" stroke-width="1.5"/>
+  <circle cx="25.5" cy="25.5" r="23.2" fill="none" stroke="#FFFFFF" stroke-opacity="0.12" stroke-width="0.8"/>
+  <ellipse cx="21" cy="13" rx="16" ry="7.5" fill="#FFFFFF" opacity="0.065"/>
+
+  <!-- LARGE STAR — static -->
+  <path
+    d="M24.5742 37C23.2816 32.8231 21.4943 30.4189 18 29.0038C21.3273 27.543 23.2816 25.3519 24.5557 21C25.7988 24.865 27.3387 27.505 31 28.9049C27.8273 30.5711 25.706 32.5796 24.5742 37Z"
+    fill="white"
+  />
+
+
+  <!-- MEDIUM STAR — twinkles -->
+  <path
+    class="star-md"
+    d="M31.0457 24C30.2502 21.6505 29.1503 20.2981 27 19.5021C29.0476 18.6805 30.2502 17.4479 31.0343 15C31.7992 17.174 32.7469 18.6591 35 19.4465C33.0476 20.3837 31.7421 21.5136 31.0457 24Z"
+    fill="white"
+  />
+
+
+  <!-- SMALLEST STAR — enlarged to the same visual size as medium -->
+  <g class="star-sm">
+    <path
+      d="M20.0228 24C19.6251 22.4337 19.0752 21.5321 18 21.0014C19.0238 20.4536 19.6251 19.632 20.0171 18C20.3996 19.4494 20.8735 20.4394 22 20.9643C21.0238 21.5892 20.3711 22.3424 20.0228 24Z"
+      fill="white"
+      transform="translate(20 21) scale(1.55) translate(-20 -21)"
+    />
+  </g>
+
+</svg>
