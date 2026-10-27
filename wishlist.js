@@ -140,7 +140,7 @@ const wishlistItems = [
   {
     title: "Shark flexstyle",
     image: "sharkhair.avif",
-    link: "https://www.sharkninja.com/cart"
+    link: "https://www.sharkninja.com/cart",
     price: 199.00,
     rating: 3,
     note: "",
