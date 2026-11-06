@@ -139,7 +139,7 @@ const wishlistItems = [
   },
   {
     title: "Shark flexstyle",
-    image: "sharkhair.avif",
+    image: "images/sharkhair.avif",
     link: "https://www.sharkninja.com/cart",
     price: 199.00,
     rating: 3,
@@ -147,7 +147,7 @@ const wishlistItems = [
   },
   {
     title: "Lenox Spice Village",
-    image: "spice.webp",
+    image: "images/spice.webp",
     link: "https://www.lenox.com/products/lenox-village-spice-jars-set-of-24",
     price: 299.00,
     rating: 5,
