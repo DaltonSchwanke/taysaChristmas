@@ -145,5 +145,13 @@ const wishlistItems = [
     rating: 3,
     note: "",
   },
+  {
+    title: "Lenox Spice Village",
+    image: "spice.webp",
+    link: "https://www.lenox.com/products/lenox-village-spice-jars-set-of-24",
+    price: 299.00,
+    rating: 5,
+    note: "full set or any amount of the little spice houses is fine",
+  }
 
 ];
